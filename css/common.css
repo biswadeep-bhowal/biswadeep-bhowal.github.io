@@ -104,28 +104,23 @@ html, body
     border : none;
 }
 
-.carousel-item > div 
-{
-    display : flex;
-    border : solid;
-    
+
+.about
+{   
     font-family : 'Sofia';
-    font-size : 55px;
+    font-size : 350%;
     color : lightgoldenrodyellow;
     
     border : none;
-}
-
-
-.about
-{
     text-align : center;
     justify-content : center;
+    word-wrap: normal;
 }
+
 .headshot
 {
-    height : 100%;
-    width : 35%;
+    height : 25%;
+    width : auto;
 }
 
 .carousel-item > a > img 
