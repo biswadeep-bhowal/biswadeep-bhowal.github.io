@@ -17,7 +17,7 @@ html, body
 
 body 
 {
-    background-image : #033249;
+    background-image : linear-gradient( #033249, #e7240e );
     overflow : auto;
 }
 
@@ -100,19 +100,11 @@ body
     align-self : center;   
 }
 
-#placard div 
-{
-    justify-content : center;
-    align-items : center;
-
-    border : none;
-}
-
 
 .about
 {   
     font-family : 'Sofia';
-    font-size : 100%;
+    font-size : 100px;
     color : lightgoldenrodyellow;
     
     border : none;
