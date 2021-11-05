@@ -17,7 +17,6 @@ html, body
 
 
 
-
 .header 
 {
     background-color : #033249;
@@ -26,15 +25,15 @@ html, body
 
 .middle 
 {
-    height : 60%;
-    background-image : linear-gradient( #033249, #FF8038 );
+    height : 75%;
+    background-image : linear-gradient( #033249, #FF8038, #e7240e );
 }
 
-.footer 
-{
-    height : 15%;
-    background-image : linear-gradient( #FF8038, #e7240e );
-}
+
+
+
+
+
 
 
 
@@ -90,38 +89,11 @@ html, body
 
 .carousel
 {
-    height : 80%;
-    width : 40%;
-
-    margin : auto;
-    padding : auto;
-
-    justify-self : center;
-    align-self : center;
-}
-
-.carousel-inner
-{
     height : 100%;
     width : 100%;
 
-    border : solid 20px;
-    border-image : linear-gradient( #033249, #FF8038, #e7240e );
-    border-image-slice : 1;
-}
-
-.middle > .left, .middle > .right
-{
-    border : solid black;
-}
-
-#placard 
-{
-    height : 100%;
-    width : 25%;
-    margin : auto;
-
-    border : none;
+    justify-self : center;
+    align-self : center;   
 }
 
 #placard div 
@@ -145,37 +117,23 @@ html, body
 }
 
 
-.circle-pic
+.about
 {
-    height : 30%;
-    margin-top : 5%;
-    
-    background-image : url( '../img/thumbnails/headshot.png' );
-    background-size : contain;
-    background-position : center;
-    background-repeat : no-repeat;
-}
-
-.desc
-{
-    border : 2%;
-    height : 65%;
-    width : 100%;
-
-    padding : auto;
-    justify-content : center;
-    align-items : center;
     text-align : center;
-    color : lightgoldenrodyellow;
-    font-weight: bolder;
-
-    font-size : 25px;
-    font-family : 'Sofia';
+    justify-content : center;
 }
-
-
-
-.footer > div
+.headshot
 {
     height : 100%;
+    width : 35%;
+}
+
+.carousel-item > a > img 
+{
+    height : 75%;
+    width : 60%;
+    
+    margin : auto;
+
+    border : solid black 2px;
 }
