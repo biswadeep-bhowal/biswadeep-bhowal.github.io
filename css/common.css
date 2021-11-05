@@ -15,12 +15,6 @@ html, body
     overflow : hidden;
 }
 
-body 
-{
-    background-image : linear-gradient( #033249, #e7240e );
-    overflow : auto;
-}
-
 .header 
 {
     background-color : #033249;
