@@ -1,1 +1,181 @@
+*
+{
+    box-sizing : border-box;
 
+    height : 100%;
+    width : 100%;
+
+    margin : 0%;
+    padding : 0%;
+}
+
+html, body 
+{
+    background-color : #033249;
+    overflow : hidden;
+}
+
+
+
+
+.header 
+{
+    background-color : #033249;
+    height : 25%;
+}
+
+.middle 
+{
+    height : 60%;
+    background-image : linear-gradient( #033249, #FF8038 );
+}
+
+.footer 
+{
+    height : 15%;
+    background-image : linear-gradient( #FF8038, #e7240e );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header div 
+{
+    margin : auto;
+    padding : auto;
+}
+
+.whatsapp   { background-image : url( '../img/logos/whatsapp.png'   );  }
+.linkedin   { background-image : url( '../img/logos/linkedin.jpg'   );  }
+.youtube    { background-image : url( '../img/logos/youtube.png'    );  }
+.instagram  { background-image : url( '../img/logos/instagram.jpg'  );  }
+.psmotors   { background-image : url( '../img/logos/Original.png'   );  }
+
+.whatsapp, .linkedin, .youtube, .instagram, .psmotors
+{
+    height : 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.psmotors 
+{
+    height : 100%;
+    margin : 0%;
+}
+
+.instagram{ height : 25%;   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel
+{
+    height : 80%;
+    width : 40%;
+
+    margin : auto;
+    padding : auto;
+
+    justify-self : center;
+    align-self : center;
+}
+
+.carousel-inner
+{
+    height : 100%;
+    width : 100%;
+
+    border : solid 20px;
+    border-image : linear-gradient( #033249, #FF8038, #e7240e );
+    border-image-slice : 1;
+}
+
+.middle > .left, .middle > .right
+{
+    border : solid black;
+}
+
+#placard 
+{
+    height : 100%;
+    width : 25%;
+    margin : auto;
+
+    border : none;
+}
+
+#placard div 
+{
+    justify-content : center;
+    align-items : center;
+
+    border : none;
+}
+
+.carousel-item > div 
+{
+    display : flex;
+    border : solid;
+    
+    font-family : 'Sofia';
+    font-size : 55px;
+    color : lightgoldenrodyellow;
+    
+    border : none;
+}
+
+
+.circle-pic
+{
+    height : 30%;
+    margin-top : 5%;
+    
+    background-image : url( '../img/thumbnails/headshot.png' );
+    background-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+
+.desc
+{
+    border : 2%;
+    height : 65%;
+    width : 100%;
+
+    padding : auto;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    color : lightgoldenrodyellow;
+    font-weight: bolder;
+
+    font-size : 25px;
+    font-family : 'Sofia';
+}
+
+
+
+.footer > div
+{
+    height : 100%;
+}
