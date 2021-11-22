@@ -98,7 +98,7 @@ html, body
 .about
 {   
     font-family : 'Sofia';
-    font-size : 150%;
+    font-size : 100%;
     color : lightgoldenrodyellow;
     
     border : none;
@@ -127,8 +127,14 @@ html, body
 
 
 
-@media screen and ( max-width : 600px )
+@media screen and ( max-width : 600px ) /* For Mobile Screens */
 {
+
+    .psmotors 
+    {
+        height : 150%;
+        margin : 0%;
+    }
 
     .carousel
     {
@@ -143,7 +149,7 @@ html, body
     .about
     {   
         font-family : 'Sofia';
-        font-size : 100%;
+        font-size : 150%;
         color : lightgoldenrodyellow;
         
         border : none;
@@ -154,15 +160,17 @@ html, body
     
     .headshot
     {
-        height : 25%;
+        height : 30%;
         width : auto;
+
+        margin-top : 1%;
     }
     
     .carousel-item > a > img 
     {
         height : 45%;
         width : 100%;
-        
+
         margin : auto;
         margin-top : 5%;
     
@@ -171,7 +179,7 @@ html, body
     
 }
 
-@media screen and ( min-width : 601px )
+@media screen and ( min-width : 601px ) /* For bigger screens like laptops */
 {
 
     .carousel
@@ -187,7 +195,7 @@ html, body
     .about
     {   
         font-family : 'Sofia';
-        font-size : 200%;
+        font-size : 300%;
         color : lightgoldenrodyellow;
         
         border : none;
