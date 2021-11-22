@@ -136,6 +136,11 @@ html, body
         margin : 0%;
     }
 
+    .whatsapp, .linkedin, .youtube, .instagram, .psmotors
+    {
+        margin-bottom : 5%;
+    }
+
     .carousel
     {
         height : 100%;
