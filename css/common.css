@@ -27,24 +27,6 @@ html, body
     background-image : linear-gradient( #033249, #FF8038, #e7240e );
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header div 
 {
     margin : auto;
@@ -63,77 +45,23 @@ html, body
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-}
 
-.psmotors 
-{
-    height : 100%;
-    margin : 0%;
-}
-
-.instagram{ height : 25%;   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.carousel
-{
-    height : 100%;
-    width : 100%;
-
-    justify-self : center;
-    align-self : center;   
-}
-
-
-.about
-{   
-    font-family : 'Sofia';
-    font-size : 100%;
-    color : lightgoldenrodyellow;
-    
-    border : none;
-    text-align : center;
-    justify-content : center;
-    word-wrap: normal;
-}
-
-.headshot
-{
-    height : 25%;
-    width : auto;
-}
-
-.carousel-item > a > img 
-{
-    height : 45%;
-    width : 100%;
-    
-    margin : auto;
-    margin-top : 5%;
-
-    border : solid black 2px;
+    align-self : center;
 }
 
 
 
 
 @media screen and ( max-width : 600px ) /* For Mobile Screens */
-{
+{   
+    .whatsapp, .linkedin, .youtube, .instagram
+    {
+        height : 15%;
+    }
 
     .psmotors 
     {
-        height : 200%;
-        margin : 0%;
+        height : 50%;
     }
 
     .whatsapp, .linkedin, .youtube, .instagram, .psmotors
@@ -154,13 +82,18 @@ html, body
     .about
     {   
         font-family : 'Sofia';
-        font-size : 150%;
+        font-size : 175%;
         color : lightgoldenrodyellow;
         
         border : none;
         text-align : center;
         justify-content : center;
         word-wrap: normal;
+    }
+
+    .about > div > p
+    {
+        font-size : 125%;
     }
     
     .headshot
@@ -187,6 +120,30 @@ html, body
 @media screen and ( min-width : 601px ) /* For bigger screens like laptops */
 {
 
+    .header div 
+    {
+        margin : auto;
+        padding : auto;
+    }
+    
+    .whatsapp, .linkedin, .youtube, .instagram, .psmotors
+    {
+        height : 15%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        align-self : center;
+    }
+    
+    .instagram{ height : 25%;   }
+
+    .psmotors 
+    {
+        height : 100%;
+        margin : 0%;
+    }
+
     .carousel
     {
         height : 100%;
@@ -195,7 +152,6 @@ html, body
         justify-self : center;
         align-self : center;   
     }
-    
     
     .about
     {   
